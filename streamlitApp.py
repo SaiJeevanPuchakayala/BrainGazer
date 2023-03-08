@@ -8,9 +8,9 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 ############################################################
 def crop_brain_contour(image, plot=False):
-    # import imutils
-    # import cv2
-    # from matplotlib import pyplot as plt
+    import imutils
+    import cv2
+    from matplotlib import pyplot as plt
 
     # Convert the image to grayscale, and blur it slightly
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
