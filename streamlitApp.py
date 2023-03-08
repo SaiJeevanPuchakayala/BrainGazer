@@ -4,7 +4,9 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from Brain_Tumor_Detection_Model_Deployment import crop_brain_contour
+from .brain_tumor_dataset.Brain_Tumor_Detection_Model_Deployment import (
+    crop_brain_contour,
+)
 
 
 def streamlit_load_data(image, image_size):
