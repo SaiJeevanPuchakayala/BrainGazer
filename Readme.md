@@ -3,6 +3,8 @@
 
 ## A CNN based algorithm with 91% accuracy for brain tumor detection.
 
+![MRI Scan Evaluation of Brain Tumor Detection]("../Images/brain_scans.png")
+
 BrainGazer is a state-of-the-art deep learning algorithm developed for the detection of brain tumors using medical imaging. It is based on Convolutional Neural Networks (CNNs), which are known for their exceptional performance in image classification tasks. The algorithm is designed to analyze Magnetic Resonance Imaging (MRI) scans and accurately identify the presence of tumors in the brain.
 
 The BrainGazer algorithm has been trained on a large dataset of MRI scans, including both healthy and tumor-afflicted brains. This has allowed it to learn complex patterns and features that are indicative of tumors. The algorithm uses a series of convolutional layers to extract meaningful features from the input images and then passes them through fully connected layers to classify the image as either tumor or healthy.
