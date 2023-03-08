@@ -30,3 +30,17 @@ The dataset contains 2 folders: yes and no which contains 253 Brain MRI Images. 
 * Selecting appropriate architectures.
 * Fine-tuning hyperparameters.
 * Optimizing the algorithm's performance.
+
+## ⭐ Streamlit Deployment Configurations:
+```
+[theme]
+base="dark"
+
+[browser]
+gatherUsageStats = false
+```
+
+## ⭐ References:
+1. https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
+2. https://streamlit-cloud-example-apps-streamlit-app-sw3u0r.streamlit.app/?hsCtaTracking=28f10086-a3a5-4ea8-9403-f3d52bf26184|22470002-acb1-4d93-8286-00ee4f8a46fb
+3. https://docs.streamlit.io/library/advanced-features/configuration
