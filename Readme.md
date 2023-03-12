@@ -14,7 +14,33 @@ BrainGazer has achieved a remarkable accuracy of 91% in detecting brain tumors, 
 ## ⭐  About the Brain MRI Images Dataset<br>
 The dataset contains 2 folders: yes and no which contains 253 Brain MRI Images. The folder yes contains 155 Brain MRI Images that are tumorous and the folder no contains 98 Brain MRI Images that are non-tumorous. You can find it [here](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection).
 
+## ⭐  To run these scripts, you need the following installed:
 
+1. Python 3
+2. The python libraries listed in requirements.txt
+    * Try running "pip3 install -r requirements.txt"
+
+### Step 1: Clone this repository
+Run:
+```bash
+git clone https://github.com/SaiJeevanPuchakayala/BrainGazer
+```
+
+### Step 2: Navigate to the BrainGazer directory
+Run:
+```bash
+cd BrainGazer
+```
+### Step 3: Install the python libraries
+Run:
+```bash
+pip install -r requirements.txt
+```
+### Step 4: Run the streamlitApp.py file
+Run:
+```bash
+streamlit run streamlitApp.py
+```
 ## ⭐ Lessons Learned
 
 * Data quality is critical: The quality of the data used to train the CNN model can greatly affect its accuracy. Ensuring that the data is labeled correctly and covers a diverse range of cases can improve the model's performance.
