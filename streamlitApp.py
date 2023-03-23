@@ -5,6 +5,11 @@ from PIL import Image
 import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
+# Disable scientific notation for clarity
+np.set_printoptions(suppress=True)
+
+# Define the layout of the app
+st.set_page_config(page_title="BrainGazer", page_icon=":camera:")
 
 ############################################################
 def crop_brain_contour(image, plot=False):
@@ -173,3 +178,16 @@ if submit:
     classified_label = detect_tumor_in_the_scan(opencv_image)
     with st.spinner(text="This may take a moment..."):
         st.write(classified_label)
+
+
+footer = """
+<div style="text-align: center; font-size: medium; margin-top:50px;">
+    If you find BrainGazer useful or interesting, please consider starring it on GitHub.
+    <hr>
+    <a href="https://github.com/SaiJeevanPuchakayala/BrainGazer" target="_blank">
+    <img src="https://img.shields.io/github/stars/SaiJeevanPuchakayala/BrainGazer.svg?style=social" alt="GitHub stars">
+  </a>
+</div>
+"""
+
+st.markdown(footer, unsafe_allow_html=True)
