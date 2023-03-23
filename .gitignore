@@ -1,6 +1,7 @@
 Augmented_Dataset
 braingazer_py
 logs
+converted_keras.zip
 Brain_Tumor_Detection_Models/cnn-parameters-improvement-01-0.54.model
 Brain_Tumor_Detection_Models/cnn-parameters-improvement-01-0.70.model
 Brain_Tumor_Detection_Models/cnn-parameters-improvement-01-0.83.model
